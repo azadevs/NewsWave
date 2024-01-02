@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.settings.SettingsFragment">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="@string/settings_title"
+        app:titleTextAppearance="@style/textTitleStyle" />
+
+    <com.google.android.material.materialswitch.MaterialSwitch
+        android:id="@+id/switch_theme"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/cut_corners_background"
+        android:fontFamily="@font/poppins_medium"
+        android:paddingHorizontal="24dp"
+        android:text="@string/text_light_mode"
+        android:textColor="?colorOutline"
+        android:textSize="18sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_language"
+        style="@style/LanguageButton"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:paddingHorizontal="24dp"
+        android:text="@string/text_language"
+        android:textAlignment="textStart"
+        app:backgroundTint="?colorSurfaceVariant"
+        app:cornerRadius="12dp"
+        app:drawableEndCompat="@drawable/ic_keyboard_arrow" />
+</LinearLayout>

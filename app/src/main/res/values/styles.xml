@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Onboarding-styles -->
+
+    <style name="OnboardButton">
+        <item name="android:textSize">18sp</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="layout_constraintWidth_percent">0.9</item>
+        <item name="layout_constraintVertical_bias">0.8</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="OnboardDescription">
+        <item name="android:textSize">16sp</item>
+        <item name="layout_constraintWidth_percent">0.7</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">?colorOutline</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="OnboardTitle">
+        <item name="android:textSize">28sp</item>
+        <item name="layout_constraintWidth_percent">0.7</item>
+        <item name="android:textAlignment">center</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <!-- ================================================== -->
+
+    <style name="textTitleStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">?colorOnBackground</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+    </style>
+
+    <style name="textDescriptionStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:textColor">?colorOutline</item>
+        <item name="android:layout_marginEnd">16dp</item>
+    </style>
+
+    <style name="LanguageButton">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textColor">@color/selector_checkbox_text</item>
+        <item name="android:layout_marginVertical" tools:targetApi="o">4dp</item>
+        <item name="android:background">@drawable/selector_view_background</item>
+        <item name="android:layout_marginHorizontal" tools:targetApi="o">16dp</item>
+    </style>
+
+
+</resources>

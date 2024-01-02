@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name" translatable="false">NewsWave</string>
+    <string name="onboarding_next_btn">Next</string>
+    <string name="welcome_description">All news in one place, be the first to know last news</string>
+    <string name="welcome_title">News Wave</string>
+    <string name="image_description">This is a image</string>
+    <string name="onboarding_title">First to Know</string>
+    <string name="welcome_started">Get Started</string>
+    <string name="topics_text_title">Select your favorite topics</string>
+    <string name="topics_text_description">Select some of your favorite topics</string>
+
+    <string name="politics">Politics</string>
+    <string name="sports">Sports</string>
+    <string name="business">Business</string>
+    <string name="tourism">Tourism</string>
+    <string name="environment">Environment</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="health">Health</string>
+    <string name="food">Food</string>
+    <string name="science">Science</string>
+    <string name="technology">Technology</string>
+
+    <string-array name="categories">
+        <item>Politics</item>
+        <item>Sports</item>
+        <item>Business</item>
+        <item>Tourism</item>
+        <item>Environment</item>
+        <item>Entertainment</item>
+        <item>Health</item>
+        <item>Food</item>
+        <item>Science</item>
+        <item>Technology</item>
+
+    </string-array>
+    <string-array name="categories_server" translatable="false">
+        <item>Politics</item>
+        <item>Sports</item>
+        <item>Business</item>
+        <item>Tourism</item>
+        <item>Environment</item>
+        <item>Entertainment</item>
+        <item>Health</item>
+        <item>Food</item>
+        <item>Science</item>
+        <item>Technology</item>
+    </string-array>
+
+
+    <string name="home_text_description">Discover things of this world</string>
+    <string name="search_text_title">Search</string>
+    <string name="search_text_description">You can search for news</string>
+    <string name="home_text_title">Browse</string>
+    <string name="hint_text_search">Search</string>
+    <string name="home_text_recommended">Recommended for you</string>
+    <string name="bookmarks_title">Bookmarks</string>
+    <string name="bookmarks_text_empty_state">You haven\'t saved any articles \n yet. Start reading and \n bookmarking them now</string>
+    <string name="bookmarks_text_description">Saved articles to the library</string>
+    <string name="categories_text_description">Thousands of articles in each category</string>
+    <string name="categories_text_title">Categories</string>
+    <string name="select_topics_message">Please select some topics</string>
+    <string name="menu_title_home">Home</string>
+    <string name="menu_title_categories">Categories</string>
+    <string name="menu_title_bookmarks">Bookmarks</string>
+    <string name="menu_settings_title">Settings</string>
+    <string name="result">Results</string>
+    <string name="text">Leads in individual states may change from one party to another as all the votes are counted. Select a state for detailed results, and select the Senate, House or Governor tabs to view those races. For more detailed state results click on the States A-Z links at the bottom of this page. Results source: NEP/Edison via Reuters.</string>
+    <string name="settings_title">Settings</string>
+    <string name="text_language_uzb">Uzbek</string>
+    <string name="text_language_rus">Russian</string>
+    <string name="text_language_eng">English</string>
+    <string name="text_language">Language</string>
+    <string name="text_light_mode">Light Mode</string>
+    <string name="text_dark_mode">Dark Mode</string>
+
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.language.LanguageFragment">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:navigationIcon="@drawable/ic_back_arrow"
+        app:navigationIconTint="?colorOnBackground"
+        app:title="@string/text_language"
+        app:titleCentered="true"
+        app:titleTextAppearance="@style/textTitleStyle" />
+
+    <RadioGroup
+        android:id="@+id/rb_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_rus"
+            style="@style/LanguageButton"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:button="@null"
+            android:text="@string/text_language_rus"
+            android:textAlignment="center" />
+
+        <RadioButton
+            android:id="@+id/rb_eng"
+            style="@style/LanguageButton"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:button="@null"
+            android:text="@string/text_language_eng"
+            android:textAlignment="center" />
+
+    </RadioGroup>
+
+</LinearLayout>

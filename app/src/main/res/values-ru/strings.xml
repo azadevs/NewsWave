@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="onboarding_next_btn">Cледующий</string>
+    <string name="welcome_description">Все новости в одном месте, узнавайте последние новости первым</string>
+    <string name="welcome_title">Новостная волна</string>
+    <string name="image_description">Это изображение</string>
+    <string name="onboarding_title">Первым, кто узнает</string>
+    <string name="welcome_started">Начать</string>
+    <string name="topics_text_title">Выберите любимые темы</string>
+    <string name="topics_text_description">Выберите некоторые из ваших любимых тем</string>
+
+    <string name="politics">Политика</string>
+    <string name="sports">Cпорта</string>
+    <string name="business">Бизнес</string>
+    <string name="tourism">Туризм</string>
+    <string name="environment">Среда</string>
+    <string name="entertainment">Развлечение</string>
+    <string name="health">Здоровье</string>
+    <string name="food">Еда</string>
+    <string name="science">Наука</string>
+    <string name="technology">Технологии</string>
+
+
+    <string-array name="categories">
+        <item name="politics">Политика</item>
+        <item name="sports">Cпорта</item>
+        <item name="business">Бизнес</item>
+        <item name="tourism">Туризм</item>
+        <item name="environment">Среда</item>
+        <item name="entertainment">Развлечение</item>
+        <item name="health">Здоровье</item>
+        <item name="food">Еда</item>
+        <item name="science">Наука</item>
+        <item name="technology">Технологии</item>
+    </string-array>
+
+
+    <string name="home_text_description">Откройте для себя вещи этого мира</string>
+    <string name="search_text_title">Поиск</string>
+    <string name="search_text_description">Вы можете искать новости</string>
+    <string name="home_text_title">Просматривать</string>
+    <string name="hint_text_search">Поиск</string>
+    <string name="home_text_recommended">Рекомендуется для вас</string>
+    <string name="bookmarks_title">Закладки</string>
+    <string name="bookmarks_text_empty_state">Вы еще не сохранили ни одной статьи\n. Начните читать и \n добавьте их в закладки прямо сейчас.</string>
+    <string name="bookmarks_text_description">Сохраненные статьи в библиотеку.</string>
+    <string name="categories_text_description">Тысячи статей в каждой категории</string>
+    <string name="categories_text_title">Категории</string>
+    <string name="select_topics_message">Пожалуйста, выберите несколько тем</string>
+    <string name="menu_title_home">Дом</string>
+    <string name="menu_title_categories">Категории</string>
+    <string name="menu_title_bookmarks">Закладки</string>
+    <string name="menu_settings_title">Настройки</string>
+    <string name="result">Результаты</string>
+    <string name="text">Leads in individual states may change from one party to another as all the votes are counted. Select a state for detailed results, and select the Senate, House or Governor tabs to view those races. For more detailed state results click on the States A-Z links at the bottom of this page. Results source: NEP/Edison via Reuters.</string>
+    <string name="settings_title">Настройки</string>
+    <string name="text_language_uzb">Узбекский</string>
+    <string name="text_language_rus">Русский</string>
+    <string name="text_language_eng">Английский</string>
+    <string name="text_language">Язык</string>
+    <string name="text_light_mode">Светлый режим</string>
+    <string name="text_dark_mode">Темный режим</string>
+</resources>
