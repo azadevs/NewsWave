@@ -2,7 +2,8 @@
 <p align="start">  
   NewsApp is a sample news app built using Modern Android Development (Architecture Components, MVVM, Kotlin, Coroutines, Retrofit, Navigation, Dagger-Hilt).
 </p>
-<h3>NewsWave is simple App which uses [News API](https://newsdata.io/blog/news-api-for-android/) API </h3>
+
+NewsWave is simple App which uses [News API](https://newsdata.io/blog/news-api-for-android/)
 
 ----
 
