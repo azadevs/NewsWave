@@ -1,11 +1,13 @@
 <h1 align="center"> NewsWave </h1>
-<p align="center">  
-  NewsWave demonstrates modern Android development with Hilt, Coroutines, Flow, Jetpack (Room, ViewModel) based on MVVM architecture.
+<p align="start">  
+  NewsApp is a sample news app built using Modern Android Development (Architecture Components, MVVM, Kotlin, Coroutines, Retrofit, Navigation, Dagger-Hilt).
 </p>
+<h3>NewsWave is simple App which uses [News API](https://newsdata.io/blog/news-api-for-android/) API </h3>
 
+----
+
+<h1>Architecture</h1>
+<h3>This app uses MVVM (Model View View-Model) architecture.</h3>
 <p align="center">
-<img src="https://i.imgur.com/l9CFgnS.png?1" width="250"/> <img src="https://i.imgur.com/w5iEUKY.jpg" width="250"/> <img src="https://i.imgur.com/CFkI0ve.jpg" width="250"/> 
-<img src="https://i.imgur.com/l8x7rpk.jpg" width="250"/>  <img src="https://i.imgur.com/lgd1Vgp.jpg" width="250"/> <img src="https://i.imgur.com/gY2QTnO.jpg" width="250"/>
-<img src="https://i.imgur.com/n2TKZTw.jpg" width="250"/>
+<img src="https://user-images.githubusercontent.com/5742609/141597565-fb276346-346a-4a08-a731-bbf9f0db890f.png"  />  
 </p>
-
