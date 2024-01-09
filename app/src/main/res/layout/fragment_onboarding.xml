@@ -26,7 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/view_pager"
-        app:tabBackground="@drawable/selector_oboarding_tab"
+        app:tabBackground="@drawable/selector_onboarding_tab"
         app:tabGravity="center"
         app:tabIndicatorHeight="0dp" />
 
