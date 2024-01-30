@@ -1,7 +1,7 @@
 package android.dev.kalmurzaeff.newswave.ui.article
 
 import android.dev.kalmurzaeff.newswave.model.News
-import android.dev.kalmurzaeff.newswave.repository.article.ArticleRepository
+import android.dev.kalmurzaeff.newswave.repository.NewsRepository
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -20,7 +20,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 class ArticleViewModel @Inject constructor(
-    savedStateHandle: SavedStateHandle, private val repository: ArticleRepository
+    savedStateHandle: SavedStateHandle, private val repository: NewsRepository
 ) : ViewModel() {
 
     val articleNews = MutableStateFlow(savedStateHandle.get<News>("news")).stateIn(

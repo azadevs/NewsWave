@@ -2,7 +2,7 @@ package android.dev.kalmurzaeff.newswave.ui.home
 
 import android.dev.kalmurzaeff.newswave.data.local.preferences.NewsPreferences
 import android.dev.kalmurzaeff.newswave.model.News
-import android.dev.kalmurzaeff.newswave.repository.home.HomeRepository
+import android.dev.kalmurzaeff.newswave.repository.NewsRepository
 import android.dev.kalmurzaeff.newswave.ui.model.NewsDisplayModel
 import android.dev.kalmurzaeff.newswave.utils.State
 import androidx.lifecycle.ViewModel
@@ -23,19 +23,17 @@ import javax.inject.Inject
 
 @HiltViewModel
 class HomeViewModel @Inject constructor(
-    private val repository: HomeRepository,
+    private val repository: NewsRepository,
     private val preferences: NewsPreferences,
 ) : ViewModel() {
 
     private val _actionItemClicked = Channel<News>()
     val actionItemClicked = _actionItemClicked.receiveAsFlow()
 
-    private val _stateRecommendation =
-        MutableStateFlow<State<List<NewsDisplayModel>>>(State.Empty)
+    private val _stateRecommendation = MutableStateFlow<State<List<NewsDisplayModel>>>(State.Empty)
     val stateRecommendation = _stateRecommendation.asStateFlow()
 
-    private val _stateCategory =
-        MutableStateFlow<State<List<NewsDisplayModel>>>(State.Empty)
+    private val _stateCategory = MutableStateFlow<State<List<NewsDisplayModel>>>(State.Empty)
     val stateCategory = _stateCategory.asStateFlow()
 
 
@@ -43,10 +41,8 @@ class HomeViewModel @Inject constructor(
         viewModelScope.launch(Dispatchers.IO) {
             _stateRecommendation.emit(State.Loading)
             repository.getNewsByCategory(
-                category = preferences.getSelectedCategoriesFromPreference(),
-                language = language
-            )
-                .fold(onSuccess = { newsList ->
+                category = preferences.getSelectedCategoriesFromPreference(), language = language
+            ).fold(onSuccess = { newsList ->
                     _stateRecommendation.emit(State.Success(newsList.map { news ->
                         NewsDisplayModel(articleId = news.articleId,
                             title = news.title,
@@ -71,8 +67,7 @@ class HomeViewModel @Inject constructor(
         viewModelScope.launch {
             _stateCategory.emit(State.Loading)
             repository.getNewsByCategory(
-                category = category,
-                language = language
+                category = category, language = language
             ).fold(onSuccess = { newsList ->
                 _stateCategory.emit(State.Success(newsList.map { news ->
                     NewsDisplayModel(articleId = news.articleId,
@@ -102,7 +97,7 @@ class HomeViewModel @Inject constructor(
     private fun handleOnBookmarkClicked(news: News, bool: Boolean) {
         viewModelScope.launch(Dispatchers.IO) {
             if (bool) {
-                repository.upsertFavouriteNews(news.copy(isFavourite = true))
+                repository.upsertNews(news.copy(isFavourite = true))
             } else {
                 repository.deleteNews(news.copy(isFavourite = false))
             }

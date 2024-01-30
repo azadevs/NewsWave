@@ -1,7 +1,7 @@
 package android.dev.kalmurzaeff.newswave.ui.search
 
 import android.dev.kalmurzaeff.newswave.model.News
-import android.dev.kalmurzaeff.newswave.repository.search.SearchRepository
+import android.dev.kalmurzaeff.newswave.repository.NewsRepository
 import android.dev.kalmurzaeff.newswave.ui.model.NewsDisplayModel
 import android.dev.kalmurzaeff.newswave.utils.State
 import androidx.lifecycle.ViewModel
@@ -22,7 +22,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 class SearchViewModel @Inject constructor(
-    private val repository: SearchRepository
+    private val repository: NewsRepository
 ) : ViewModel() {
 
     private val _state = MutableStateFlow<State<List<NewsDisplayModel>>>(State.Empty)
@@ -34,7 +34,7 @@ class SearchViewModel @Inject constructor(
     fun getSearchNews(query: String, language: String) {
         _state.value = State.Loading
         viewModelScope.launch(Dispatchers.IO) {
-            repository.getSearchNews(query,language)
+            repository.getSearchNews(query, language)
                 .fold(onSuccess = { newsList: List<News> ->
                     _state.value = State.Success(
                         newsList.map { news ->

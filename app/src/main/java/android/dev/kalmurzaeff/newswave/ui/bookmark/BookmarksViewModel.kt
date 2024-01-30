@@ -1,7 +1,7 @@
 package android.dev.kalmurzaeff.newswave.ui.bookmark
 
 import android.dev.kalmurzaeff.newswave.model.News
-import android.dev.kalmurzaeff.newswave.repository.bookmark.BookmarksRepository
+import android.dev.kalmurzaeff.newswave.repository.NewsRepository
 import android.dev.kalmurzaeff.newswave.ui.model.NewsDisplayModel
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -21,7 +21,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 class BookmarksViewModel @Inject constructor(
-    private val repository: BookmarksRepository
+    private val repository: NewsRepository
 ) : ViewModel() {
 
     private val _favouriteNew =
