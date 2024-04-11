@@ -6,7 +6,7 @@
 
 ---
 
-<h1>Screenshots</h1>
+## Screenshots
 
 <img src="https://imgur.com/LXyz8Oe.png" width="250"> <img src="https://imgur.com/9Jl3oe0.png" width="250">
 <img src="https://imgur.com/4LZIY4z.png" width="250"> <img src="https://imgur.com/6UmGoCu.png" width="250">
@@ -17,21 +17,18 @@
 
 ---
 
-<h1>
-  Tech Stack
-</h1>
+ ### Built with
 
-
-- MVVM(Model-View-ViewModel) - <h5>Design pattern promoting separation of concerns for clear and maintainable UI development.</h5>
-- Coroutines - <h5>Powerful mechanism for handling asynchronous operations without blocking the UI thread.</h5>
-- Room - <h5>Local database persistence library for storing data on the device.</h5>
-- Hilt - <h5>Dependency injection framework streamlining object management and testability.</h5>
-- Retrofit - <h5>Networking library enabling clean and concise interaction with web APIs.</h5>
-- Architecture Components - <h5>Collection of Jetpack libraries providing foundational building blocks for robust apps.</h5>
+- `MVVM(Model-View-ViewModel)`
+- `Coroutines`
+- `Room`
+- `Hilt` 
+- `Retrofit` 
+- `Architecture Components`
 
 ----
 
-<h1>Architecture</h1>
+## Architecture
 <p align="center">
 <img src="https://user-images.githubusercontent.com/5742609/141597565-fb276346-346a-4a08-a731-bbf9f0db890f.png"  />  
 </p>
