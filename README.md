@@ -8,11 +8,11 @@
 
 <h1>Screenshots</h1>
 
-<img src="https://imgur.com/uSc2p8D.png" width="300"> <img src="https://imgur.com/m1iCQTV.png" width="300">
-<img src="https://imgur.com/zakEgup.png" width="300"> <img src="https://imgur.com/em2P92c.png" width="300">
-<img src="https://imgur.com/ruNJ22k.png" width="300"><img src="https://imgur.com/4LZIY4z.png" width="300">
-<img src="https://imgur.com/6UmGoCu.png" width="300"><img src="https://imgur.com/LXyz8Oe.png" width="300">
-<img src="https://imgur.com/9Jl3oe0.png" width="300">
+<img src="https://imgur.com/uSc2p8D.png" width="200"> <img src="https://imgur.com/m1iCQTV.png" width="200">
+<img src="https://imgur.com/zakEgup.png" width="200"> <img src="https://imgur.com/em2P92c.png" width="200">
+<img src="https://imgur.com/ruNJ22k.png" width="200"><img src="https://imgur.com/4LZIY4z.png" width="200">
+<img src="https://imgur.com/6UmGoCu.png" width="200"><img src="https://imgur.com/LXyz8Oe.png" width="200">
+<img src="https://imgur.com/9Jl3oe0.png" width="200">
 
 ---
 
