@@ -29,6 +29,12 @@
 ----
 
 ## Architecture
+- MVVM (Model-View-ViewModel):
+- Design patterns for building user interfaces.
+- Promotes separation of concerns:
+- Model: Represents data objects.
+- View: Responsible for UI display and user interaction.
+- ViewModel: Acts as the intermediary between View and Model, preparing data and handling UI logic.
 <p align="center">
-<img src="https://user-images.githubusercontent.com/5742609/141597565-fb276346-346a-4a08-a731-bbf9f0db890f.png"  />  
+<img src="https://th.bing.com/th/id/OIP.RboNE1JcU4rpMKiEA-4mAgHaFj?rs=1&pid=ImgDetMain.png"  />  
 </p>
