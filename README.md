@@ -21,7 +21,6 @@
   Tech Stack
 </h1>
 
-<h4>
 
 - MVVM(Model-View-ViewModel) - <h5>Design pattern promoting separation of concerns for clear and maintainable UI development.</h5>
 - Coroutines - <h5>Powerful mechanism for handling asynchronous operations without blocking the UI thread.</h5>
@@ -29,12 +28,10 @@
 - Hilt - <h5>Dependency injection framework streamlining object management and testability.</h5>
 - Retrofit - <h5>Networking library enabling clean and concise interaction with web APIs.</h5>
 - Architecture Components - <h5>Collection of Jetpack libraries providing foundational building blocks for robust apps.</h5>
-</h4>
 
 ----
 
 <h1>Architecture</h1>
-<h3>This app uses MVVM (Model View View-Model) architecture</h3>
 <p align="center">
 <img src="https://user-images.githubusercontent.com/5742609/141597565-fb276346-346a-4a08-a731-bbf9f0db890f.png"  />  
 </p>
