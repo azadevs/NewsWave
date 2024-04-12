@@ -76,8 +76,3 @@ To set up and run NewsWave-App on your local machine, follow these steps:
 4. In the project's root directory, create a file named `local.properties`.
 5. Inside `local.properties`, add the following line with your News API key: Replace `YOUR_API_KEY_HERE` with your actual News API key.
 6. Build and run the app on an Android device or emulator.
-
----
-
-## Contact
-For any inquiries or feedback, please contact [Azamat Kalmurzayev](@codingwithme28@gmail.com).
